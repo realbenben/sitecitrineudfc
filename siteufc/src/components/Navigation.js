@@ -5,7 +5,6 @@ const Navigation = () => {
     return (
         <div className="nav-bar">
             <NavLink exact to="/">
-                Accueil
             </NavLink>
             <NavLink exact to="/infos">
                 Infos Utiles
