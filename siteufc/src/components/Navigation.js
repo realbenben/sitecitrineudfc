@@ -19,9 +19,7 @@ const Navigation = () => {
             <NavLink exact to="/contact">
                 Contact
             </NavLink>
-            <NavLink exact to="/inscription">
-                Inscription
-            </NavLink>
+
             </div>
     )
 }
