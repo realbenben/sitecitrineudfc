@@ -1,21 +1,42 @@
 import React from "react";
-// import { FormspreeProvider } from "@formspree/react";
-import { useForm } from "@formspree/react";
-const [state, handleSubmit] = useForm("{form-key}");
 
-function SignupForm() {
-  const [state, handleSubmit] = useForm("signupForm");
-  if (state.succeeded) {
-    return <div>Thank you for signing up!</div>;
-  }
+const Mailer = () => {
   return (
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="email">Email</label>
-      <input id="email" type="email" name="email" />
-      <button type="submit" disabled={state.submitting}>
-        Sign up
-      </button>
-    </form>
+    <div className="container border">
+      <h3>contactez moi</h3>
+      <form>
+        <div className="form-style">
+          <label for="name_field">Votre nom</label>
+          <input
+            type="text"
+            className="name_field"
+            name="name_field"
+            required
+          ></input>
+          <div className="form-style">
+            <label for="_replyto">Votre email</label>
+            <input
+              type="email"
+              className="_replyto"
+              name="_replyto"
+              required
+            ></input>
+          </div>
+          <div className="form-style">
+            <label for="textarea_message">Votre Message</label>
+            <textarea
+              className="textarea_message"
+              name="textarea_message"
+            ></textarea>
+          </div>
+          <div className="form-style"></div>
+          <button type="submit" className="form-button">
+            c'est parti !
+          </button>
+        </div>
+      </form>
+    </div>
   );
-}
-export default SignupForm;
+};
+
+export default Mailer;
