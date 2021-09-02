@@ -4,8 +4,9 @@ const ContactPage = () => {
     return (
         <div>
             <Navigation />
-        
+
             Ayoub's spam automated platform
+            <Footer />
         </div>
     )
 }

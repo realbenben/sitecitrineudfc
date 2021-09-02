@@ -5,6 +5,7 @@ const SubscriptionPage = () => {
         <div>
             <Navigation />
             Inscris toi, ou tu es fan de dick rivers!
+            <Footer />
         </div>
     )
 }

@@ -5,6 +5,8 @@ const StoryPage = () => {
         <div>
             <Navigation />
             Leu club il ai bo
+
+            <Footer />
         </div>
     )
 }

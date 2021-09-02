@@ -5,6 +5,8 @@ const MembersPage = () => {
         <div>
             <Navigation />
             jolis membres ICI :P lolilol
+
+            <Footer />
         </div>
     )
 }
