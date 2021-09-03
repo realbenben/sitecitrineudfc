@@ -17,10 +17,10 @@ const Mailer = () => {
       .catch((err) => console.log(err));
   }
   return (
-    <div className="container border">
+    <div className="container-fluid">
       <h3>contactez moi</h3>
-      <form className="form" onSubmit={sendEmail}>
-        <div className="form-style">
+      <form className="form-group" onSubmit={sendEmail}>
+        <div className="form-style ">
           <label for="name_field" className="form-control">
             Votre nom et prénom
           </label>
@@ -30,7 +30,7 @@ const Mailer = () => {
             name="name"
             required
           ></input>
-          <div className="form-style">
+          <div className="form-style ">
             <label for="_replyto" className="form-control">
               Votre email
             </label>
@@ -41,20 +41,21 @@ const Mailer = () => {
               required
             ></input>
           </div>
-          <div className="form-style">
+          <div className="form-style ">
             <label for="message" className="form-control">
               Votre Message
             </label>
             <textarea className="textarea_message" name="message"></textarea>
           </div>
-          <div className="form-style"></div>
+          <div className="form-style "></div>
           <button
             type="submit"
-            className="form-button form-control btn btn-primary"
+            className="form-button form-control btn btn-success"
           >
             c'est parti !
           </button>
         </div>
+        <div className="upload"></div>
       </form>
     </div>
   );
