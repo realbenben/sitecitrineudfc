@@ -5,8 +5,9 @@ const InfoPage = () => {
     return (
         <div>
             <Navigation />
-            Info page  
-
+            <p>
+                placeholder
+            </p>
             <Footer />
         </div>
     )

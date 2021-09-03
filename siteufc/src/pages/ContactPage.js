@@ -3,10 +3,11 @@ import Navigation from '../components/Navigation'
 
 const ContactPage = () => {
     return (
-        <div>
+        <div classname='contact'>
             <Navigation />
-
-            Ayoub's spam automated platform
+            <p>
+                placeholder
+            </p>
             <Footer />
         </div>
     )

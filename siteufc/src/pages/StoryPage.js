@@ -5,8 +5,9 @@ const StoryPage = () => {
     return (
         <div>
             <Navigation />
-            Leu club il ai bo
-
+            <p>
+                placeholder
+            </p>
             <Footer />
         </div>
     )
