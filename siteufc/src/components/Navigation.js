@@ -1,28 +1,26 @@
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
-  return (
-    <div className="nav-bar">
-      <NavLink exact to="/">
-        Accueil
-      </NavLink>
-      <NavLink exact to="/infos">
-        Infos Utiles
-      </NavLink>
-      <NavLink exact to="/membres">
-        Membres
-      </NavLink>
-      <NavLink exact to="/histoire">
-        Histoire
-      </NavLink>
-      <NavLink exact to="/contact">
-        Contact
-      </NavLink>
-      <NavLink exact to="/inscription">
-        Inscription
-      </NavLink>
-    </div>
-  );
+    return (
+        <div className="navigation">
+            <NavLink exact to="/" activeClassName="nav-active">
+                Accueil
+            </NavLink>
+            <NavLink exact to="histoire" activeClassName="nav-active">
+                Histoire
+            </NavLink>
+            <NavLink exact to="infos" activeClassName="nav-active">
+                Infos utiles
+            </NavLink>
+            <NavLink exact to="membres" activeClassName="nav-active">
+                Membre
+            </NavLink>
+            <NavLink exact to="contact" activeClassName="nav-active">
+                Contact
+            </NavLink>
+        </div>
+    );
 };
 
 export default Navigation;

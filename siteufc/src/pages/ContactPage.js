@@ -1,11 +1,16 @@
+import Footer from '../components/Footer'
+import Logo from '../components/Logo'
 import Navigation from '../components/Navigation'
 
 const ContactPage = () => {
     return (
-        <div>
+        <div classname='contact'>
+            <Logo />
             <Navigation />
-        
-            Ayoub's spam automated platform
+            <p>
+                placeholder
+            </p>
+            <Footer />
         </div>
     )
 }

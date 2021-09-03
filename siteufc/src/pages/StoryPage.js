@@ -1,10 +1,16 @@
+import Footer from '../components/Footer'
+import Logo from '../components/Logo'
 import Navigation from '../components/Navigation'
 
 const StoryPage = () => {
     return (
         <div>
+            <Logo />
             <Navigation />
-            Leu club il ai bo
+            <p>
+                placeholder
+            </p>
+            <Footer />
         </div>
     )
 }
