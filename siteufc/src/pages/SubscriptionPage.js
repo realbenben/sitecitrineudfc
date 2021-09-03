@@ -1,5 +1,6 @@
 import Navigation from "../components/Navigation";
 import Mailer from "../components/Form";
+
 const SubscriptionPage = () => {
   return (
     <div>
