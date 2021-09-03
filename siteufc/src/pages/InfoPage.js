@@ -1,10 +1,14 @@
+import Footer from '../components/Footer'
 import Navigation from '../components/Navigation'
 
 const InfoPage = () => {
     return (
         <div>
             <Navigation />
-            Info page  
+            <p>
+                placeholder
+            </p>
+            <Footer />
         </div>
     )
 }

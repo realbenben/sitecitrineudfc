@@ -1,10 +1,14 @@
+import Footer from '../components/Footer'
 import Navigation from '../components/Navigation'
 
 const StoryPage = () => {
     return (
         <div>
             <Navigation />
-            Leu club il ai bo
+            <p>
+                placeholder
+            </p>
+            <Footer />
         </div>
     )
 }
