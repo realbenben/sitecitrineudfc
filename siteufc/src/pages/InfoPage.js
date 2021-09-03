@@ -7,11 +7,12 @@ const InfoPage = () => {
         <div className='info'>
             <Logo />
             <Navigation />
-                <section>
+            <section>
+                <div>
                     <img src='' alt='img-1'></img>
                     <img src='' alt='img-2'></img>
-                </section>
-                <section>
+                </div>
+                <div>
                     <p>
                         L'Ultimate Fighting Championship ou UFC est une organisation sportive américaine d'arts martiaux mixtes (MMA), créée en novembre 1993.
                     </p>
@@ -29,7 +30,8 @@ const InfoPage = () => {
                         Résultat de recherche d'images pour "cage de ufc" Elle entoure les combattants laissant une aux combattants une très petite zone de combat, ceci favorise les combats debout car les combattants peuvent utiliser la cage pour se battre.
                         Ce site souhaite résumer l'histoire de ce sport et expliquer comment il a pu devenir aussi célèbre en si peu de temps, il a était créé dans le cadre de l'Outil informatique à l'Université Champollion d'Albi.
                     </p>
-                </section>
+                </div>
+            </section>
             <Footer />
         </div>
     )
