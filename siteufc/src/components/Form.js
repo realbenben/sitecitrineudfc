@@ -18,7 +18,7 @@ const Mailer = () => {
   }
   return (
     <div className="container-fluid">
-      <h3>contactez moi</h3>
+      <h3>formulaire d'inscription</h3>
       <form className="form-group" onSubmit={sendEmail}>
         <div className="form-style ">
           <label for="name_field" className="form-control">

@@ -1,6 +1,6 @@
-import Footer from '../components/Footer'
-import Logo from '../components/Logo'
-import Navigation from '../components/Navigation'
+import Footer from "../components/Footer";
+import Logo from "../components/Logo";
+import Navigation from "../components/Navigation";
 
 const InfoPage = () => {
     return (
@@ -32,8 +32,7 @@ const InfoPage = () => {
                 </div>
             </section>
             <Footer />
-        </div>
-    )
-}
+  );
+};
 
-export default InfoPage
+export default InfoPage;
