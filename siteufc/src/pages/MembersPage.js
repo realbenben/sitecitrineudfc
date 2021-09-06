@@ -5,7 +5,6 @@ import Navigation from '../components/Navigation'
 const MembersPage = () => {
     return (
         <div>
-            {/* <Logo /> */}
             <Navigation />
             <p>
                 placeholder

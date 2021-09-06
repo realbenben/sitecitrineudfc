@@ -6,7 +6,6 @@ import Form from '../components/Form'
 const ContactPage = () => {
     return (
         <div className='contact'>
-            {/* <Logo /> */}
             <Navigation />
             <p>
                 placeholder
