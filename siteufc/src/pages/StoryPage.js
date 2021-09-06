@@ -5,7 +5,7 @@ import Navigation from '../components/Navigation'
 const StoryPage = () => {
     return (
         <div>
-            <Logo />
+            {/* <Logo /> */}
             <Navigation />
             <p>
                 placeholder

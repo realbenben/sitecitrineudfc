@@ -6,7 +6,7 @@ const HomePage = () => {
     return (
         <div className="home">
             <Navigation />
-            <Logo />
+            {/* <Logo />  */}
             <WallPaper />
         </div>
     )

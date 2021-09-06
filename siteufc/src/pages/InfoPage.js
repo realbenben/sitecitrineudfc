@@ -5,7 +5,7 @@ import Navigation from '../components/Navigation'
 const InfoPage = () => {
     return (
         <div className='info'>
-            <Logo />
+            {/* <Logo /> */}
             <Navigation />
             <section>
                 <div>
