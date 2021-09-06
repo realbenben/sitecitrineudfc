@@ -5,7 +5,6 @@ import Navigation from "../components/Navigation";
 const StoryPage = () => {
   return (
     <div className="container">
-      <Logo />
       <Navigation />
       <div className="layout row">
         <div className="img-story col">
