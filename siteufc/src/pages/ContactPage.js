@@ -6,7 +6,6 @@ import Form from "../components/Form";
 const ContactPage = () => {
   return (
     <div className="contact">
-      <Logo />
       <Navigation />
       <div className="content-contact">
         <h1>Vous souhaitez vous inscrire ?</h1>
@@ -27,5 +26,6 @@ const ContactPage = () => {
     </div>
   );
 };
+
 
 export default ContactPage;

@@ -128,9 +128,6 @@ const InfoPage = () => {
             </table>
           </div>
         </div>
-      </section>
-      <Footer />
-    </div>
   );
 };
 

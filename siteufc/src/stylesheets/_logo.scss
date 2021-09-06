@@ -1,9 +1,15 @@
 .logo {
+    margin: auto;
+    margin-left: 5px;
+    // justify-self: flex-start;
+    // margin-right: 200px;
+    // position: relative;
+    // left: 5px;
     display: flex;
-    position: absolute;
-    top: 5px;
-    left: 50%;
-    transform: translate(-50%);
+    // position: absolute;
+    // top: 5px;
+    // left: -15%;
+    // transform: translate(-50%);
     background: url(../assets/logo.png) center/cover;
     height: 60px;
     width: 200px;
