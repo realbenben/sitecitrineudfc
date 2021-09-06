@@ -32,6 +32,7 @@ const InfoPage = () => {
                 </div>
             </section>
             <Footer />
+        </div>
   );
 };
 
