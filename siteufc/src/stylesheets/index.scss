@@ -1,0 +1,14 @@
+@import './footer.scss';
+@import "./settings.scss";
+@import "./logo";
+@import "./navigation";
+@import "./wallPaper";
+
+.info{
+    section{
+        display: flex;
+        div{
+            flex-direction: column;
+        }
+    }
+}
