@@ -1,4 +1,4 @@
-import Logo from '../components/Logo'
+import Footer from '../components/Footer'
 import Navigation from '../components/Navigation'
 import WallPaper from '../components/WallPaper'
 
@@ -7,6 +7,7 @@ const HomePage = () => {
         <div className="home">
             <Navigation />
             <WallPaper />
+            <Footer />
         </div>
     )
 }
