@@ -4,7 +4,7 @@ export const StyledBurger = styled.button`
   position: absolute;
   top: 5%;
   right: 2rem;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-around;
   width: 2rem;
@@ -17,7 +17,7 @@ export const StyledBurger = styled.button`
   span {
     width: 2rem;
     height: 0.25rem;
-    background: ${({ theme, open }) => open ? theme.primaryDark : theme.primaryLight};
+    background-color: white;
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;
@@ -33,4 +33,6 @@ export const StyledBurger = styled.button`
       transform: ${({ open }) => open ? 'rotate(-45deg)' : 'rotate(0)'};
     }
   }
+
+
 `;

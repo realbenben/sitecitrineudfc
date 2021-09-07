@@ -1,7 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { useOnClickOutside } from './hooks';
-import { theme } from './theme';
 import { Burger, Menu } from './components';
 import FocusLock from 'react-focus-lock';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
@@ -21,7 +20,6 @@ function App() {
   useOnClickOutside(node, () => setOpen(false));
 
   return (
-    <ThemeProvider theme={theme}>
       <>
         <div ref={node}>
           <FocusLock disabled={!open}>
@@ -42,7 +40,6 @@ function App() {
       </Switch>
     </BrowserRouter>
       </>
-     </ThemeProvider>
     
   );
 }
