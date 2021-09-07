@@ -1,5 +1,4 @@
 import Footer from "../components/Footer";
-import Logo from "../components/Logo";
 import Navigation from "../components/Navigation";
 import Form from "../components/Form";
 
@@ -26,6 +25,5 @@ const ContactPage = () => {
     </div>
   );
 };
-
 
 export default ContactPage;
