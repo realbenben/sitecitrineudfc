@@ -67,11 +67,9 @@ const InfoPage = () => {
           </div>
         </div>
         <div className="row">
-          <div class="col-4">
-            <img src="../img/Panorama_de_la_Gouvernance.jpg" alt="covid" />
-          </div>
           <div class="col">
-            <table>
+            <img src="../img/Panorama_de_la_Gouvernance.jpg" alt="covid" />
+            <table className="table">
               <thead>
                 <tr>
                   <th colspan="3">Horaires de la salle</th>
@@ -121,13 +119,14 @@ const InfoPage = () => {
               </tbody>
               <tfoot>
                 <tr>
-                  <td colspan="3">Les horaires sont susceptible de changer </td>
+                  <td className="horaire" colspan="3">
+                    Les horaires sont susceptible de changer
+                  </td>
                 </tr>
               </tfoot>
             </table>
+            <Map />
           </div>
-
-          <Map />
         </div>
       </section>
       <Footer />
