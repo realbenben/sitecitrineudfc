@@ -1,11 +1,13 @@
 import Footer from '../components/Footer'
-import Logo from '../components/Logo'
+
 import Navigation from '../components/Navigation'
 
 const InfoPage = () => {
     return (
         <div className='info'>
             <Navigation />
+            <div className="main">
+
             <section>
                 <div>
                     <img src='' alt='img-1'></img>
@@ -31,6 +33,7 @@ const InfoPage = () => {
                     </p>
                 </div>
             </section>
+            </div>
             <Footer />
         </div>
     )
