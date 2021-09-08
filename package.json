@@ -1,1 +1,11 @@
+<<<<<<< HEAD
 {}
+=======
+{
+  "dependencies": {
+    "react-burger-menu": "^3.0.6",
+    "react-focus-lock": "^2.5.2",
+    "styled-components": "^5.3.1"
+  }
+}
+>>>>>>> 5c23259ee3775ba5c2ea17c3b71b86cd3f56ec74
