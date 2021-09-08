@@ -9,20 +9,20 @@ const Navigation = () => {
 
         <div className="navigation">
             <NavLink exact to="/" activeClassName="nav-active">
-               <h1> Accueil</h1>
+             Accueil
             </NavLink>
             <NavLink exact to="histoire" activeClassName="nav-active">
-            <h1> Le club</h1>
+         Le club
             </NavLink>
             <NavLink exact to="membres" activeClassName="nav-active">
-            <h1>Membres</h1>
+        Adhérents
             </NavLink>
             <NavLink exact to="infos" activeClassName="nav-active">
-            <h1> Infos utiles</h1>
+         Infos utiles
             </NavLink>
        
             <NavLink exact to="contact" activeClassName="nav-active">
-            <h1>Contact</h1>
+        Contact
             </NavLink>
             </div>
         </div>
