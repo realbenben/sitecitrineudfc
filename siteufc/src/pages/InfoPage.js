@@ -35,8 +35,7 @@ const InfoPage = () => {
             </section>
             </div>
             <Footer />
-        </div>
-    )
-}
+  );
+};
 
-export default InfoPage
+export default InfoPage;
