@@ -1,13 +1,8 @@
-<<<<<<< HEAD
 @import "./footer.scss";
-=======
-@import './footer.scss';
->>>>>>> 5c23259ee3775ba5c2ea17c3b71b86cd3f56ec74
 @import "./settings.scss";
 @import "./logo";
 @import "./navigation";
 @import "./wallPaper";
-<<<<<<< HEAD
 // flex template initialisation
 .info {
   section {
@@ -37,14 +32,4 @@
     background-repeat: no-repeat;
     margin-bottom: -160%;
   }
-=======
-
-.info{
-    section{
-        display: flex;
-        div{
-            flex-direction: column;
-        }
-    }
->>>>>>> 5c23259ee3775ba5c2ea17c3b71b86cd3f56ec74
 }
