@@ -3,15 +3,17 @@
 @import "./logo";
 @import "./navigation";
 @import "./wallPaper";
-// flex template initialisation
-.info {
-  section {
-    display: flex;
-    div {
-      flex-direction: column;
+@import "./main";
+
+.info{
+    section{
+        display: flex;
+        div{
+            flex-direction: column;
+        }
     }
   }
-}
+
 .flex-members {
   display: flex;
   flex-direction: row;

@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
+import Map from "../components/Map";
 
 const InfoPage = () => {
   return (
@@ -125,6 +126,8 @@ const InfoPage = () => {
               </tfoot>
             </table>
           </div>
+
+          <Map />
         </div>
       </section>
       <Footer />
