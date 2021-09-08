@@ -6,8 +6,8 @@ const InfoPage = () => {
         <div className='info'>
             <Navigation />
             <section>
-                <div class="layout row">
-                <div class="text col-lg-9">
+                <div className="layout row">
+                <div className="text col-lg-9">
                     <h2>les règles contre le Covid en vigueur dans le club</h2>
                     <h5>Qu’est-ce que le pass sanitaire ?</h5>
                     <p>
@@ -66,14 +66,14 @@ const InfoPage = () => {
                 </div>
                 </div>
                 <div className="row">
-                <div class="col-4">
+                <div className="col-4">
                     <img src="../img/Panorama_de_la_Gouvernance.jpg" alt="covid" />
                 </div>
-                <div class="col">
+                <div className="col">
                     <table>
                     <thead>
                         <tr>
-                        <th colspan="3">Horaires de la salle</th>
+                        <th colSpan="3">Horaires de la salle</th>
                         </tr>
                         <tr>
                         <td>jours de la semaine</td>
@@ -120,7 +120,7 @@ const InfoPage = () => {
                     </tbody>
                     <tfoot>
                         <tr>
-                        <td colspan="3">Les horaires sont susceptible de changer </td>
+                        <td colSpan="3">Les horaires sont susceptible de changer </td>
                         </tr>
                     </tfoot>
                     </table>
