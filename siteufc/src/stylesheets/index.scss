@@ -1,9 +1,13 @@
+@import "./InfoPage";
 @import "./footer.scss";
 @import "./settings.scss";
 @import "./logo";
 @import "./navigation";
 @import "./wallPaper";
 @import "./InfoPage";
+@import "./main";
+@import "./Form";
+@import "./story";
 // flex template initialisation
 .info {
   section {
@@ -13,6 +17,7 @@
     }
   }
 }
+
 .flex-members {
   display: flex;
   flex-direction: row;
