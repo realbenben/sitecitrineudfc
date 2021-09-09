@@ -1,9 +1,16 @@
 .form-contact {
-  margin-top: 10%;
-  margin-bottom: 10%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 10%;
 }
+.google-map-code,
+address {
+  padding-left: 15%;
+}
+// .map-place {
+//   padding-right: 25%;
+// }
+
 form {
   text-align: center;
 }
@@ -27,17 +34,42 @@ a {
 a {
   font-size: large;
 }
-
+form {
+  height: "500px";
+  width: "680px";
+}
+address {
+  margin-top: 5%;
+}
 @media screen and (max-width: 450px) {
+  .form-place {
+    flex-basis: 70%;
+  }
+  .google-map-code,
+  address {
+    margin-left: 17%;
+    height: auto;
+    width: 100%;
+  }
+  .map-place {
+    margin-right: 15%;
+  }
   .form-layout {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     margin-left: -8%;
   }
-  .form-title .map-title {
+  .form-title {
     text-align: center;
-    margin-top: 5%;
+    padding-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 15%;
+  }
+  .map-title {
+    text-align: center;
+    padding-top: 15%;
+    margin-bottom: 15%;
   }
   .covid {
     width: 100%;
@@ -49,12 +81,17 @@ a {
     margin: 5% 0% 5% 0%;
   }
   .form-bcg {
+    margin-left: 90px;
+    margin-right: 40px;
+    padding-left: 40px;
+    left: 35px;
+  }
+  .card {
     width: 100%;
     height: auto;
     margin-bottom: 10%;
   }
   address {
-    width: 100%;
-    height: auto;
+    margin-top: 15%;
   }
 }
